@@ -21,5 +21,10 @@ namespace Gittest002
         {
            
         }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test");
+        }
     }
 }
