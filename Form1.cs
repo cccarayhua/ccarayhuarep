@@ -25,6 +25,7 @@ namespace Gittest002
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             MessageBox.Show("변화");
+            label1.Text = "TEST3";
         }
     }
 }
