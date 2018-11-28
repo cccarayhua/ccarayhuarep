@@ -21,5 +21,10 @@ namespace Gittest002
         {
             MessageBox.Show("Test");
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("변화");
+        }
     }
 }
