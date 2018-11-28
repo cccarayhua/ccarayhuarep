@@ -19,7 +19,7 @@ namespace Gittest002
 
         private void button3_Click(object sender, EventArgs e)
         {
-            label1.Text = "TEST";
+            MessageBox.Show("Test");
         }
     }
 }
